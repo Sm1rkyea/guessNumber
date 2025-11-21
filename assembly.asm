@@ -1,4 +1,5 @@
-; This code is written for NASM (AT&T/Intel syntax) a 64-bit Linux syscally.
+; THIS CODE IS WRITTEN IN ASSEMBLY PROGRAMMING LANGUAGE
+; Written for NASM (AT&T/Intel syntax), a 64-bit Linux syscally.
 
 section .data
     prompt      db "Guess a number between 1 - 10:", 10, 0
@@ -13,7 +14,7 @@ section .data
     correct     db "You guessed the right number. Well done.", 10, 0
     correct_len equ $-correct
 
-    tries_msg   db "Remaining attempts: ", 0
+    tries_msg   db "Attempts: ", 0
     tries_msg_len equ $-tries_msg
 
     newline     db 10
